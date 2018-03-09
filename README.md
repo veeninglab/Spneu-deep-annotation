@@ -14,6 +14,8 @@ In summary, the pipeline consisted of the following steps:
 10. process_sam_nomulti.py (iter=2); remove fragment sizes of just-predicted sRNAs from library-wide distribution
 11. small_frags.py (iter=2); repeat analysis with improved library-wide distribution from step 10.
 12. process_sam.py; extract mapping parameters (INCLUDING multimappers)
-13-15. repeat steps 6-8.
+13. Repeat step 6
+14. Repeat step 7
+15. Repeat step 8
 16. TSS_classification.py; classify TSSs as Primary, Secondary, Internal, Antisense or Orphan
 17. operons.py; predict operons based on strong terminators (step 15) and expression correlation data from [PneumoExpress](https://veeninglab.com/pneumoexpress).
